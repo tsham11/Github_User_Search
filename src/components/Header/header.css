@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 730px;
+  height: 38px;
+  margin: 144px 0 36px;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.dark-h1 {
+  color: #FFF;
+}
+
+#todark {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  min-width: 78px;
+  height: 20px;
+  gap: 16px;
+}
+
+.light-span {
+  color: #697C9A;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+}
+
+.light-span:hover {
+  cursor: pointer;
+  color: #222731;
+}
+
+.dark-span {
+  color: #FFF;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+}
+
+.dark-span:hover {
+  cursor: pointer;
+  color: #90A4D4;
+}
+
+#moon {
+  width: 20px;
+  height: 20px;
+  fill: #697C9A;
+}
+
+#moon:hover {
+  cursor: pointer;
+  fill: #222731;
+}
+
+#sun {
+  width: 20px;
+  height: 20px;
+  color: #FFF;
+}
+
+#sun:hover {
+  cursor: pointer;
+  fill: #90A4D4;
+}
+
+@media screen and (max-width:830px) {
+  .header {
+    width: 573px;
+    height: 38px;
+    margin: 140px 0 35px;
+  }
+}
+
+@media screen and (max-width:669px) {
+  .header {
+    width: 327px;
+    height: 38px;
+    margin: 31px 0 36px;
+  }
+}
